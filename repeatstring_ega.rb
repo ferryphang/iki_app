@@ -1,8 +1,8 @@
-def ulang(a)
-5.times {print a}
+def ulang(kata)
+5.times {print kata}
 puts
 end
 
 print "Masukkan Kata : "
-a=gets.chomp
-ulang(a)
+kata=gets.chomp
+ulang(kata)
