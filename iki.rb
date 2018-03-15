@@ -3,17 +3,18 @@ class Iki
 
   def initialize(name, age, gender)
 <<<<<<< HEAD
-  	@gender = gender
+ 
 
-  	def gender
-  		return "gender anda : #{@gender}"
-  	end
   	
 =======
   	@name = name
   	@age = age
   	@gender = gender
   end
+
+  	def gender
+  		return "gender anda : #{@gender}"
+  	end
 
   def nama_saya
   	namasaya = @name
