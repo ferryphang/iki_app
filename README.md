@@ -2,3 +2,4 @@
 
 Kolaborasi ini terdiri dari
 1. Ferry
+3. Daniel
