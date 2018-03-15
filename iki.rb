@@ -6,19 +6,17 @@ class Iki
   	@age = age
   	@gender = gender
   end
+
   def gender_saya
-	if @gender == 'pria' 
-		puts 'Pria '
-	elsif @gender == 'wanita'
+	 if @gender == 'pria' 
+	 	puts 'Pria '
+	 elsif @gender == 'wanita'
 		puts 'Wanita'
-	else
+	 else
 		puts 'Gender Invalid'
 	end
-end
 
 
-gender = gets.chomp.to_s
-gender_saya(gender)
   def my_name
   	namasaya = @name
   	"Nama saya adalah " + namasaya
