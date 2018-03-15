@@ -1,10 +1,11 @@
 class Iki
-  attr_accessor :name, :age, :gender
+  attr_accessor :name, :age, :gender, :occupation
 
-  def initialize(name, age, gender)
+  def initialize(name, age, gender,occupation)
   	@name = name
   	@age = age
   	@gender = gender
+    @occupation = occupation
   end
 
   def gender_saya
@@ -16,7 +17,9 @@ class Iki
 		puts 'Gender Invalid'
 	end
 
-
+  def set_occupation
+    puts "pekerjaan saya " + @occupation
+    
   def my_name
   	namasaya = @name
   	"Nama saya adalah " + namasaya
@@ -40,3 +43,4 @@ class Iki
   age_comparison = gets.chomp
   my_age = "Umur saya #{age_comparison}"
 end
+
