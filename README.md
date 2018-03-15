@@ -10,9 +10,9 @@ Kolaborasi ini terdiri dari
 > Buat function utk variable @occupation terdiri dari occupation=, my_occupation
 
 
-
 TASK
-
+```ruby
 randomCase("Lorem ipsum dolor sit amet, consectetur adipiscing elit") == "lOReM ipSum DOloR SiT AmeT, cOnsEcTEtuR aDiPiSciNG eLIt"
 
 randomCase("Donec eleifend cursus lobortis") == "DONeC ElEifEnD CuRsuS LoBoRTIs"
+```
