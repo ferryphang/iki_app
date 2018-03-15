@@ -9,12 +9,13 @@ class Iki
   end
 
   def gender_saya
-	 if @gender == 'pria' 
-	 	puts 'Pria '
-	 elsif @gender == 'wanita'
-		puts 'Wanita'
-	 else
-		puts 'Gender Invalid'
+	   if @gender == 'pria' 
+	 	   puts 'Pria '
+	   elsif @gender == 'wanita'
+		  puts 'Wanita'
+	   else
+		  puts 'Gender Invalid'
+    end
 	end
 
   def set_occupation
