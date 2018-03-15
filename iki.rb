@@ -9,7 +9,6 @@ class Iki
   def gender
     return "gender anda : #{@gender}"
   end
-
   def nama_saya
   	namasaya = @name
   	"Nama saya adalah " + namasaya
