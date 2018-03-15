@@ -9,7 +9,7 @@ class Iki
 
   def nama_saya
   	namasaya = @name
-  	"Nama saya adalah " +namasaya
+  	"Nama saya adalah " + namasaya
   end
 
   def age_saya
