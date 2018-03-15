@@ -6,15 +6,15 @@ class Iki
   	@age = age
   	@gender = gender
   end
-  def gender
+  def my_gender
     return "gender anda : #{@gender}"
   end
-  def nama_saya
+  def my_name
   	namasaya = @name
   	"Nama saya adalah " + namasaya
   end
 
-  def age_saya
+  def age_comparison
     case age
     when 1..5
       "Anak Balita"
