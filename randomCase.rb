@@ -1,0 +1,3 @@
+def randomCase(kalimat)
+
+end
