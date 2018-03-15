@@ -15,6 +15,7 @@ class Iki
   end
 
   def age_comparison
+
     case age
     when 1..5
       "Anak Balita"
@@ -28,4 +29,6 @@ class Iki
       "Tuhan"
     end
   end
+  age_comparison = gets.chomp
+  my_age = "Umur saya #{age_comparison}"
 end
