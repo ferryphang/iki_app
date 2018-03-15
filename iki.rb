@@ -2,17 +2,12 @@ class Iki
   attr_accessor :name, :age, :gender
 
   def initialize(name, age, gender)
-<<<<<<< HEAD
-  	@gender = gender
-
-  	def gender
-  		return "gender anda : #{@gender}"
-  	end
-  	
-=======
   	@name = name
   	@age = age
   	@gender = gender
+  end
+  def gender
+    return "gender anda : #{@gender}"
   end
 
   def nama_saya
@@ -33,6 +28,5 @@ class Iki
     else
       "Tuhan"
     end
->>>>>>> 231d57a46c92691aed06720d61031df110abcdc0
   end
 end
