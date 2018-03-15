@@ -16,3 +16,6 @@ randomCase("Lorem ipsum dolor sit amet, consectetur adipiscing elit") == "lOReM 
 
 randomCase("Donec eleifend cursus lobortis") == "DONeC ElEifEnD CuRsuS LoBoRTIs"
 ```
+```ruby
+repeatStr(5, "Ferry") // "FerryFerryFerryFerryFerry"
+```

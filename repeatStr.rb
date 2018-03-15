@@ -1,0 +1,1 @@
+repeatStr(5, "Ferry") // "FerryFerryFerryFerryFerry"
