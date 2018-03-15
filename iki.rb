@@ -17,12 +17,14 @@ class Iki
 		puts 'Gender Invalid'
 	end
 
-  def set_occupation
+  def my_occupation
     puts "pekerjaan saya " + @occupation
+
+  end   
     
   def my_name
   	namasaya = @name
-  	"Nama saya adalah " + namasaya
+  	puts "Nama saya adalah " + namasaya
   end
 
   def age_comparison
