@@ -28,22 +28,22 @@ class Iki
   	puts "Nama saya adalah " + namasaya
   end
 
-  def age_comparison
+  def age_comparison?(age_input)
 
-    case age
+    case age_input
     when 1..5
-      "Anak Balita"
+      puts "Anak Balita"
     when 6..10
-      "Kanak kanak"
+      puts "Kanak kanak"
     when 11..19
-      "Remaja"
+      puts "Remaja"
     when 20..30
-      "Dewasa"
+      puts "Dewasa"
     else
-      "Tuhan"
+      puts "Tuhan"
     end
+  # age_input = gets.to_i
+  # puts age_comparison(age_input)
   end
-  age_comparison = gets.chomp
-  my_age = "Umur saya #{age_comparison}"
-end
+  end
 
