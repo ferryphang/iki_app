@@ -18,28 +18,30 @@ class Iki
     end
 	end
 
-  def set_occupation
+  def my_occupation
     puts "pekerjaan saya " + @occupation
   end
+
   def my_name
   	namasaya = @name
-  	"Nama saya adalah " + namasaya
+  	puts "Nama saya adalah " + namasaya
   end
 
   def age_comparison?(age_param)
     case age_param
     when 1..5
-      "Anak Balita"
+      puts "Anak Balita"
     when 6..10
-      "Kanak kanak"
+      puts "Kanak kanak"
     when 11..19
-      "Remaja"
+      puts "Remaja"
     when 20..30
-      "Dewasa"
+      puts "Dewasa"
     else
-      "Tuhan"
+      puts "Tuhan"
     end
+  # age_input = gets.to_i
+  # puts age_comparison(age_input)
   end
 
 end
-
