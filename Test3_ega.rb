@@ -1,6 +1,7 @@
 def sum_lowest (a)
-	b = a.delete_if{ |x| x<0}.min(2).sum
+	b = a.select{ |x| x>0}.min(2).sum
 	puts b
+	print a
 
 end
 
