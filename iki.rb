@@ -9,7 +9,7 @@ class Iki
   end
 
   def gender_saya
-	   if @gender == 'pria' 
+	   if @gender == 'pria'
 	 	   puts 'Pria '
 	   elsif @gender == 'wanita'
 		  puts 'Wanita'
@@ -20,15 +20,14 @@ class Iki
 
   def set_occupation
     puts "pekerjaan saya " + @occupation
-    
+  end
   def my_name
   	namasaya = @name
   	"Nama saya adalah " + namasaya
   end
 
-  def age_comparison
-
-    case age
+  def age_comparison?(age_param)
+    case age_param
     when 1..5
       "Anak Balita"
     when 6..10
@@ -41,7 +40,6 @@ class Iki
       "Tuhan"
     end
   end
-  age_comparison = gets.chomp
-  my_age = "Umur saya #{age_comparison}"
+
 end
 
